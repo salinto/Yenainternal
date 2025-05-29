@@ -1,48 +1,54 @@
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(to right, #141e30, #243b55);
-  height: 100vh;
+  background: linear-gradient(145deg, #2c2f3f, #3e3a59);
+  font-family: 'Orbitron', sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  font-family: 'Orbitron', sans-serif;
-  color: white;
+  justify-content: center;
+  height: 100vh;
+  color: #fff;
   text-align: center;
+  position: relative;
+}
+
+.container {
+  max-width: 90%;
 }
 
 h1 {
-  font-size: 3em;
-  text-shadow: 0 0 10px cyan;
-  margin-bottom: 20px;
+  font-size: 2.8em;
+  color: #00f7ff;
+  text-shadow: 0 0 10px #00f7ff, 0 0 20px #00f7ff;
+  margin-bottom: 15px;
 }
 
 p {
-  font-size: 1.2em;
+  font-size: 1.1em;
+  color: #ddd;
   margin-bottom: 40px;
 }
 
-a.download-btn {
+.download-btn {
   background: linear-gradient(45deg, #00c6ff, #0072ff);
-  padding: 15px 40px;
-  border: none;
-  border-radius: 10px;
+  padding: 15px 30px;
   color: white;
   text-decoration: none;
-  font-size: 1.2em;
-  box-shadow: 0 0 20px #00ffff;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #00f7ff;
+  font-weight: bold;
+  transition: all 0.3s ease;
 }
 
-a.download-btn:hover {
+.download-btn:hover {
+  box-shadow: 0 0 30px #00f7ff;
   transform: scale(1.05);
-  box-shadow: 0 0 35px #00ffff;
 }
 
 footer {
   position: absolute;
-  bottom: 15px;
-  font-size: 14px;
-  color: #cccccc;
+  bottom: 20px;
+  font-size: 0.9em;
+  color: #aaa;
 }
