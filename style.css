@@ -1,16 +1,15 @@
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(145deg, #2c2f3f, #3e3a59);
-  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(to right, #141e30, #243b55);
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  height: 100vh;
-  color: #fff;
+  align-items: center;
+  font-family: 'Orbitron', sans-serif;
+  color: white;
   text-align: center;
-  position: relative;
 }
 
 .container {
